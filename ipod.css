@@ -45,3 +45,20 @@ body {
 	margin-left: 100px;
 	font-size: 15px;
 }
+
+.submit {
+	width: 150px;
+	margin-left: 100px;
+	font-size: 20px;
+	background-color: lightskyblue;
+	border-radius: 10px;
+}
+
+.feature_title {
+	margin-left: 100px;
+}
+
+
+/*.filepath {*/
+/*	font-size: 15px;*/
+/*}*/
