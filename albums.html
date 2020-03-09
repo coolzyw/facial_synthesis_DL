@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Deep Learning</title>
+        <link rel="stylesheet" type="text/css" href="ipod.css"/>
+    </head>
+    <body> 
+        <div id="screen">
+              <div class="head-bar">
+                     <h1>Deep Learning Final Project: Facial Synthesis</h1>
+              </div>
+
+
+              <table>
+                  <tr>
+
+                    <td>
+                        <div class="input-image">
+                          <h2> Input Image</h2>
+                        </div>
+
+                      <form action="" enctype="multipart/form-data">
+                        <img src="" id="img_id" >
+                        <br>
+                        <br>
+                        <input id="img_file" class="filepath" onchange="changepic(this)" type="file"><br>
+                      </form>
+                    </td>
+
+                    <td>
+                        <div class="input-feature">
+                          <h2> Choose Features </h2>
+                        </div>
+
+                         <h4 style="margin-left: 100px;"> Hair Color</h4>
+
+                        <select class="select-bar">
+                          <option value="black">Black Hair</option>
+                          <option value="blond">Blond Hair</option>
+                          <option value="brown">Brown Hair</option>
+                        </select>
+
+                        <br>
+                        <br>
+
+                        <h4 style="margin-left: 100px;"> Gender </h4>
+
+                        <select class="select-bar">
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                        </select>
+
+                        <h4 style="margin-left: 100px;"> Age </h4>
+
+                        <form style="margin-left: 100px;" action="" method="get"> 
+                          <label><input type="checkbox" value="aged" />aged </label> 
+                        </form> 
+
+                        <br>
+                        <br>
+
+                        <input style="width: 180px; margin-left: 100px;" type="submit" value="submit" /><br />
+
+                    </td>
+
+                    <td>
+                        <div class="input-image">
+                          <h2> Output Image</h2>
+                        </div>
+
+                      <form action="" enctype="multipart/form-data">
+                        <img src="" id="img_id" width="200">
+                        <br>
+                        <br>
+                      </form>
+
+                    </td>
+
+                  </tr>
+                 <script src="dl.js"></script>
+             </table>
+   </body>
+</html>
