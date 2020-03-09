@@ -24,7 +24,6 @@ body {
 }
 
 #img_id {
-	/*height: 400px;*/
 	width: 350px;
 	margin-left: 90px;
 }
@@ -57,6 +56,8 @@ body {
 .feature_title {
 	margin-left: 100px;
 }
+
+
 
 
 /*.filepath {*/
